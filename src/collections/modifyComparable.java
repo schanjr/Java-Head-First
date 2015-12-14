@@ -1,5 +1,6 @@
+package collections;
 
-public class QuickTestClass {
+public class modifyComparable {
 
 	public static void main(String[] args) {
 		
