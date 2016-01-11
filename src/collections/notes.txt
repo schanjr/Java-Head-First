@@ -1,0 +1,14 @@
+1.There are two way to declare generic accept types:
+public <T extends Animal> void takeThing(ArrayList<T> list)
+
+does the same thing as 
+
+public void takeThing(ArrayList<? extends Animal> list)
+
+
+
+If they both do the same thing, why would you use one over the other?
+
+public <T extends Animal> void takeThing(ArrayList<T> one, ArrayList<T> two)
+instead of typing
+public void takeThing(ArrayList<? extends Animal> one, ArrayList<? extends Animal> two)
