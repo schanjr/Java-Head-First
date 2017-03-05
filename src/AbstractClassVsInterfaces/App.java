@@ -1,6 +1,3 @@
-package tutorial42;
-
-
 /*Abstract classes
 Abstract Classes vs Interface
 Abstract classes forces the child classes that inherits them to customize their own functionality. 

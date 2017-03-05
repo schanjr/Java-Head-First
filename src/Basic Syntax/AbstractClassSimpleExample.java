@@ -1,10 +1,4 @@
-package tutorial33;
-
-
-
-
-
-class Machine {
+class Machinez1 {
 	public void start(){
 		System.out.println("Machine has started");
 	}
@@ -26,7 +20,7 @@ public abstract class AbstractClassSimpleExample {
 	public static void main(String[] args){
 		
 		//Notice we can create a method or redefine it 
-		Machine machine1 = new Machine(){
+		Machinez1 machine1 = new Machinez1(){
 			@Override public void start() {
 				System.out.println("Snapshotted camera");}
 				};

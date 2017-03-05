@@ -1,5 +1,3 @@
-package tutorial54;
-
 //http://stackoverflow.com/questions/5297978/calling-static-generic-methods
 
 public class Generics {
